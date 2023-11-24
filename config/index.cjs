@@ -21,15 +21,15 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '老婆宝宝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'SCT230785TVK2fFidGVhi3e9irS3n4HGaf',
+      id: 'PDU17917ToMkc241BcwrT82kSiaBjViajC05Y9kFI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '03-09',
       festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '老婆宝宝', year: '2000', date: '03-09',
+          type: '生日', name: '老婆宝宝', year: '2000', date: '03-09',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
@@ -37,6 +37,7 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2018-11-07' },
       ],
+      earthyLoveWords: true,
     },
   ],
 
