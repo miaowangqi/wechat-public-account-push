@@ -11,7 +11,7 @@ const TEMPLATE_CONFIG = [
     // 自定义，随便怎么填，与config里的templateId对应
     id: '0001',
     // 模板标题，会展示到推送消息的标题位置
-    title: '亲爱的, 早上好',
+    title: '老婆宝宝，早上好',
     // 模板内容，支持部分markdown语法
     desc: `
       **{{date.DATA}}**
@@ -34,7 +34,7 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      今天是我们相识的第{{love_day.DATA}}天
+      今天是我们相爱的第{{love_day.DATA}}天
       
       {{birthday_message.DATA}}
       
