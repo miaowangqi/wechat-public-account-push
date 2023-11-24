@@ -18,9 +18,6 @@ const TEMPLATE_CONFIG = [
       {{birthday_message.DATA}}
       ---
       💗：{{earthy_love_words.DATA}}
-      每日一句😋
-      中文：{{note_ch.DATA}}
-      English：{{note_en.DATA}}
       
     `
   },
